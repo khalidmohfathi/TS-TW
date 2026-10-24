@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #214d3b;
+}
+
+img{
+  width: 100%;
+  display: block;
+}

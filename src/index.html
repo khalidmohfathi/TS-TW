@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typescript and Tailwind</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./css/output.css">
+</head>
+
+<body class="bg-[#f7f6f2] space-y-10">
+
+  <nav class="bg-white border-b border-b-gray-200 py-5">
+    <div class="w-11/12 md:w-3/4 mx-auto flex justify-between items-center">
+      <a href="" class="flex items-center gap-2 font-bold text-lg">
+        <span class="flex items-center justify-center bg-primary text-white size-10 rounded-xl">
+          P
+        </span>
+        Product Explorer
+      </a>
+      <p class="uppercase text-gray-500 text-xs font-semibold tracking-widest">The everyday collection</p>
+    </div>
+  </nav>
+
+  <main class="w-11/12 md:w-3/4 mx-auto space-y-10">
+    <header class="bg-primary py-16 px-12 font-semibold space-y-6 rounded-4xl relative overflow-hidden">
+      <p class="text-xs text-gray-200 uppercase tracking-widest">Welcome to the collection</p>
+      <h1 class="text-6xl text-white">Good finds, made simple.</h1>
+      <p class="text-gray-200 font-normal">Explore the collection and open any product to see its full details.</p>
+      <div class="absolute size-96 border-white/10 border-34 rounded-full top-6 -right-16"></div>
+    </header>
+
+    <section>
+      <header class="flex justify-between items-end pb-5 mb-5 border-b border-b-[#dedfd7]">
+        <div>
+          <h2 class="text-xs font-bold text-primary/80 uppercase tracking-widest">Selected for you</h2>
+          <p class="text-3xl font-semibold">Explore products</p>
+        </div>
+        <p class="text-sm text-gray-500">24 products</p>
+      </header>
+      <div id="product-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5"></div>
+    </section>
+  </main>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
