@@ -1,7 +1,7 @@
 import { ApiResponse, Product } from "../interfaces/types";
 
 (async function () {
-  const productList = document.getElementById("product-list");
+  const productList = document.getElementById("product-listtttt");
 
   function displayProducts(products: Product[]) {
     let cartona: string = ``;
